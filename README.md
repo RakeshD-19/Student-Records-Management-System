@@ -79,7 +79,6 @@ Student Management System/
 ### Steps
 
 1. Navigate to the project root directory:
-```bash
 cd Student\ Management\ System
 
 2. Give execute permission to the script (one-time):
