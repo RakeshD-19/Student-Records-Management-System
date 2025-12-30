@@ -6,7 +6,7 @@ cd "$(dirname "$0")/.."
 mkdir -p studentData
 
 echo "Compiling Java files..."
-javac src/*.java
+javac src/Main.java
 
 if [ $? -ne 0 ]; then
 	echo "Compilation failed."
