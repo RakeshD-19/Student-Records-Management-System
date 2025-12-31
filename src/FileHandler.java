@@ -4,7 +4,9 @@ import java.util.List;
 
 
 public class FileHandler {
-    private static final String filePath="studentData/student.csv";
+
+    private static final String dirPath="studentData";
+    private static final String filePath=dirPath+"/student.csv";
 
     public static List<Student> loadStudents(){
         ArrayList<Student> studentList=new ArrayList<>();
@@ -18,6 +20,8 @@ public class FileHandler {
             String line=br.readLine();
             while((line= br.readLine())!=null){
                 String[] parts=line.split(",");
+
+                if (parts.length != 5) continue;
 
                 int id=Integer.parseInt(parts[0]);
                 String name=parts[1];
@@ -38,6 +42,11 @@ public class FileHandler {
     }
 
     public static void saveStudents(List<Student> studentList){
+
+        File dir=new File(dirPath);
+        if (!dir.exists()){
+            dir.mkdir();
+        }
         try(BufferedWriter bw=new BufferedWriter(new FileWriter(filePath))){
             bw.write("StudentID,Name,Age,Course,Marks");
             bw.newLine();
