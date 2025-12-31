@@ -69,10 +69,6 @@ studentId,name,age,course,marks
 
 The CSV file contains clean, comma-separated values
 
-No formatting or alignment is applied in the file
-
-Data alignment is handled only during console display
-
 Assumptions
 Student ID is unique and numeric
 
