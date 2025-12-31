@@ -12,29 +12,8 @@ This project focuses on **core Java programming concepts**, including object-ori
 - **Programming Language:** Java  
 - **Data Storage:** CSV file  
 - **Automation:** Bash script  
-- **Execution Mode:** Terminal / Console  
-
----
-
-## 📂 Project Structure
-Student Management System/
-│
-├── src/
-│ ├── Main.java
-│ ├── Student.java
-│ ├── StudentService.java
-│ └── FileHandler.java
-│
-├── studentData/
-│ └── studentData.csv
-│
-├── scripts/
-│ └── run.sh
-│
-├── screenshots/
-│
-└── README.md
-
+- **Execution Mode:** Terminal / Console
+- 
 ---
 
 ## Features
