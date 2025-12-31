@@ -1,5 +1,6 @@
 StudentID,Name,Age,Course,Marks
-1,rakesh,22,linux,98.0
-2,chandru,24,sde,95.0
-3,sakthi,23,wordpress,89.0
-4,sree,23,flutter,81.0
+1,Rakesh,22,DataOps,95.0
+2,Chandru,24,Linux,91.0
+3,Sakthi,23,Networks,82.0
+4,Sree,21,Docker,76.0
+5,Fardeen,23,Kubernetes,68.0

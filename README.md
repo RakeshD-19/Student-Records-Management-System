@@ -37,7 +37,7 @@ Student Management System/
 
 ---
 
-## ⚙️ Features
+## Features
 - Add student records with unique Student ID
 - View all student records in a formatted table
 - Search students by Student ID or Name
@@ -48,7 +48,7 @@ Student Management System/
 
 ---
 
-## ▶️ How to Run the Application
+## How to Run the Application
 
 ### Prerequisites
 - Java (JDK 8 or above)
@@ -68,7 +68,7 @@ Create the required data directory if it does not exist
 
 Run the application from the correct working directory
 
-🤖 Automation
+Automation
 A Bash script (run.sh) is included to automate:
 
 Compilation of Java source files
@@ -77,22 +77,25 @@ Execution of the application
 
 Creation of the required data directory
 
-This reduces manual effort and ensures consistent execution.
+Logging both compilation and runtime error(stderr) with timestamp in logs/error.log
 
-📄 Data Storage Format (CSV)
+This reduces manual effort and ensures consistent execution and logging.
+
+Data Storage Format (CSV)
 Student records are stored in a CSV file.
 
 Example:
 studentId,name,age,course,marks
 1,Rakesh,22,DataOps,99
 2,Naresh,26,Linux,92
+
 The CSV file contains clean, comma-separated values
 
 No formatting or alignment is applied in the file
 
 Data alignment is handled only during console display
 
-📝 Assumptions
+Assumptions
 Student ID is unique and numeric
 
 Console-based interaction is sufficient
@@ -101,7 +104,7 @@ CSV file structure remains consistent
 
 No database is used, as per task requirements
 
-📸 Screenshots
+Screenshots
 The screenshots/ folder contains execution screenshots demonstrating:
 
 Menu display
@@ -114,6 +117,6 @@ Search, update, and delete operations
 
 Data persistence in the CSV file
 
-🚀 Conclusion
+Conclusion
 This project demonstrates clean code structure, proper separation of concerns, effective file handling, and basic automation.
 It is intentionally kept simple and aligned with the given requirements to focus on core programming fundamentals.
