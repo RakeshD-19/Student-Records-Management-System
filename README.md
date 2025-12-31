@@ -13,7 +13,6 @@ This project focuses on **core Java programming concepts**, including object-ori
 - **Data Storage:** CSV file  
 - **Automation:** Bash script  
 - **Execution Mode:** Terminal / Console
-- 
 ---
 
 ## Features
